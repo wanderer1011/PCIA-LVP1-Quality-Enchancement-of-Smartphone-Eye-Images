@@ -1,2 +1,56 @@
-segmentation/Data Generation/Data_Raw
-segmentation/Data Generation/Data_Degraded
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# ===============================
+# Virtual Environment
+# ===============================
+.venv/
+venv/
+env/
+
+# ===============================
+# Dataset (VERY IMPORTANT)
+# ===============================
+segementation/Data Generation/Data_Raw/
+segementation/Data Generation/Data_Degraded/
+
+# If folder name corrected later:
+segmentation/Data Generation/Data_Raw/
+segmentation/Data Generation/Data_Degraded/
+
+# ===============================
+# Model Weights
+# ===============================
+*.pth
+*.pt
+*.ckpt
+
+# ===============================
+# Logs
+# ===============================
+logs/
+runs/
+*.log
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE
+# ===============================
+.vscode/
+.idea/
