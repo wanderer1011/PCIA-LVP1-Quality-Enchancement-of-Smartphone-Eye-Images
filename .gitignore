@@ -19,6 +19,7 @@ env/
 # ===============================
 segementation/Data Generation/Data_Raw/
 segementation/Data Generation/Data_Degraded/
+segmentation/Raw_Smartphone_Images/
 
 # If folder name corrected later:
 segmentation/Data Generation/Data_Raw/
